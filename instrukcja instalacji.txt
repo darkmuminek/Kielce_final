@@ -1,0 +1,14 @@
+1. Zainstalować przeglądarkę Mozilla Firefox oraz ustawić ją jako domyślną przeglądarkę.
+2. Zainstalować aplikację Snap Camera, skonfigurować ją ustawiając rozdzielczość kamery na 1920 x 1080 px oraz 30 klatek na sekundę.
+3. Wybrać filtr w aplikacji Snap Camera.
+4. Po ściągnięciu repozytorium uruchomić plik "index.html" i kliknąć przycisk "URUCHOM".
+5. Aplikacja przełączy się w tryb pełnego ekranu, natomiast nie będzie wyświetlała obrazu z kamery. Należy wyjść z trybu pełnego ekranu poprzez wciśnięcie przycisku F11 na klawiaturze bądź kliknięcie myszą w dowolnym punkcie ekranu, a następnie wyrazić zgodę na użycie kamery. Aby aplikacja działała poprawnie należy też zaznaczyć opcję zapamiętania ustawień.
+6. Zamknąć plik "Index.html".
+7. Otworzyć plik "uruchom.bat" za pomocą dowolnego edytora tekstu.
+8. Zmienić ścieżki dostępu w linii 5 i 7 na takie, które zostały utworzone w komputerze docelowym, np.: "C\Kielce\Index.html" oraz "C:\Kielce\uruchom.exe"
+9. Uruchomić plik "uruchom.bat". Powinien wyświetlić się komunikat: "Program uruchomi sie za 60 sekund, prosze nie restartowac komputera oraz nic nie naciskac". Rozpocznie się odliczanie.
+10. Po zakończeniu odliczania okno konsoli zniknie i po chwili uruchomi się przeglądarka.
+11. Po 10 sekundach od uruchomienia przeglądarki aplikacja przełączy się automatycznie w tryb pełnego ekranu.
+12. Po kolejnych 5 sekundach zastosowany zostanie filtr z aplikacji Snap Camera.
+13. Po zakończeniu testu skopiować plik "uruchom.bat" do folderu autostartu Windowsa.
+14. Zrestartować komputer, sprawdzić, czy aplikacja działa poprawnie.
