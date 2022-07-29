@@ -21,11 +21,9 @@ function handleSuccess(stream) {
 function handleError(error) {
   if (error.name === 'OverconstrainedError') {
     const v = constraints.video;
-    errorMsg(`The resolution ${v.width.exact}x${v.height.exact} px is not supported by your device.`);
+    errorMsg(`Rozdzielczosc ${v.width.exact}x${v.height.exact} px nie jest obslugiwana przez to urzadzenie.`);
   } else if (error.name === 'NotAllowedError') {
-    errorMsg('Permissions have not been granted to use your camera and ' +
-      'microphone, you need to allow the page access to your devices in ' +
-      'order for the demo to work.');
+    errorMsg('Nie udzielono uprawnien do kamery.');
   }
   errorMsg(`getUserMedia error: ${error.name}`, error);
 }
